@@ -1,0 +1,70 @@
+.containeri{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.title>h1{
+    margin: auto;
+    width: 70%;
+    font-size: 4vmax;
+    font-weight: 500;
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+
+.cards{
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background-color: rgb(180, 180, 248);
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.ccontents{
+   
+    margin: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.lix {
+    
+    margin-left: 10px;
+    list-style-type: disc;
+    font-size: medium;
+    font-weight: 500;
+ }
+ .blue-sec{
+    content: "";
+    height:15rem;
+    width: 15rem;
+    background-color: rgb(217, 215, 240);
+    border-radius: 120px;
+    position: absolute;
+    right: -30%;
+    top:-20%;
+    z-index: -2;
+    overflow: hidden;
+}

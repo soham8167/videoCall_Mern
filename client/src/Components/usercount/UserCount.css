@@ -1,0 +1,153 @@
+
+.h-wrapper{
+    background: cornflowerblue;
+}
+.total{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding: 5px;
+    
+    width: 90%;
+    margin: auto;
+}
+.h-left{
+   
+    margin-top: 3rem;
+    /* gap: 3rem; */
+    display: flex;
+    flex-flow: wrap;
+    /* flex-direction: column; */
+    width: 40%;
+    margin-left: 0.1vmax;
+}
+.h-right{
+   
+    margin-top: 3rem;
+    /* gap: 3rem; */
+    width: 50%;
+}
+.hero-title{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 5rem;
+    color: aliceblue;
+}
+.orange-circle{
+    height:4rem;
+    width: 4rem;
+    background-color: rgb(21, 0, 255);
+    border-radius: 99px;
+    position: absolute;
+    right: 28%;
+    top:-10%;
+    z-index: -1;
+    
+}
+.blue-circle{
+    height:3rem;
+    width: 3rem;
+    background-color: blue;
+    border-radius: 99px;
+    position: absolute;
+    left:-2% ;
+    top:80%;
+    z-index: -1;
+}
+
+
+.stats{
+ /* display: flex; */
+ 
+ color: aliceblue;
+ width: 100%;
+}
+/* .stats1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.stats2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: space-between;
+    gap: 2rem;
+   
+} */
+.stat{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.stat>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.btn{
+    margin-top: 2.5rem;
+    outline:solid 2px aliceblue;
+    background: none;
+}
+
+@media (max-width: 600px) {
+    .total{
+        flex-flow: wrap;
+        gap: 0;
+    }
+    .h-left{
+        justify-content: center;
+    }
+    .h-left,.h-right{
+        width: 100%;
+        gap: 0;
+    }
+    /* .h-right{
+        width: 100%;
+
+    } */
+    .hero-title{
+        text-align: center;
+    }
+    /* .stats1{
+        flex-flow: column;
+        justify-content: center;
+        gap: 0;
+    }
+    .stats2{
+        flex-flow: column;
+        justify-content: center;
+        gap: 0;
+    } */
+    .stats{
+        gap: 0;
+        flex-flow: wrap;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+    }
+    .stat{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .stat span{
+        font-size: 2.8vmax;
+    }
+}
+
+

@@ -1,0 +1,8 @@
+@media (max-width:600px) {
+    .angular, .react,.vue,.laravel,.pricing,.setting, .orders, .help{
+        justify-content: center;
+    }
+    .Here{
+        text-align: center;
+    }
+}

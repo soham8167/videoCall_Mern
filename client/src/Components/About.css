@@ -1,0 +1,28 @@
+.ah1{
+    font-size: 3vmax;
+    font-weight: 600;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    /* text-align: center; */
+    width: 90%;
+    margin: auto;
+}
+.team{
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: auto;
+}
+
+
+@media ( max-width: 600px ) {
+        .aboutdetails{
+            text-align: center;
+        }
+}

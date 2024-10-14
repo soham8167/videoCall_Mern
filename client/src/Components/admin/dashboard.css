@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+    .pie1, .pie2{
+        width: 315px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .pie1, .pie2{
+        width: 500px;
+    }
+}

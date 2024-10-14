@@ -1,0 +1,27 @@
+.mostly-customized-scrollbar::-webkit-scrollbar{
+    width: 5px; /* Change the color as needed */
+  }
+
+
+
+.mostly-customized-scrollbar::-webkit-scrollbar-track {
+    background-color: #e2e8f4; /* Change the color as needed */
+  }
+  
+  /* Style the scrollbar thumb */
+  .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #aeb7ca; /* Change the color as needed */
+    border-radius: 5px; /* Adjust the radius as needed */
+  }
+  
+  /* Style the scrollbar on hover */
+  .mostly-customized-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #828a9b; /* Change the color as needed */
+  }
+
+  .mostly-customized-scrollbar::-webkit-scrollbar{
+    width: 10px; /* Change the color as needed */
+  }
+
+
+

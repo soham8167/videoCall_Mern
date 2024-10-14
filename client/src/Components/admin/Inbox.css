@@ -1,0 +1,30 @@
+.inbox {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .inbox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inbox ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .inbox li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .inbox li h3 {
+    margin: 0 0 10px;
+  }
+  
+  .inbox li p {
+    margin: 5px 0;
+  }
