@@ -10,7 +10,7 @@ import { User } from './schema/user.js';
 const app = express();
 
 app.use(cors({
-    origin: 'https://meetup-zeta-vert.vercel.app',
+    origin: 'https://video-call-mern-frontend.vercel.app/',
     methods: ['GET', 'POST', 'DELETE'],
     // allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
